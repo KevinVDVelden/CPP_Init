@@ -1,0 +1,11 @@
+3rdparty/stackless
+
+build
+Release
+Debug
+
+*.swo
+*.swp
+
+env.sh
+Makefile
