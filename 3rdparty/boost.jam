@@ -1,0 +1,7 @@
+import option ; 
+ 
+using msvc ; 
+ 
+option.set keep-going : false ; 
+ 
+using python : 3.3 : ../stackless/ : ../stackless/Include/ ../stackless/PC/ ../stackless/stackless/ : ../stackless/PCbuild/python33.lib ;
