@@ -6,6 +6,7 @@ BX_DIR=$(THIRDPARTY_DIR)bx/
 BX_SLN=.build/projects/vs2013/bx.sln
 
 bx: bx_sln
+	( cd $(THIRDPARTY_DIR)/bx/ && cat ../bx.patch | patch -p1 -N )
 	$(call build,$(BX_DIR),$(BX_SLN))
 
 bx_sln:
