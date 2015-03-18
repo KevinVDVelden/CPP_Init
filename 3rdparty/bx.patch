@@ -1,0 +1,11 @@
+--- bx/scripts/toolchain.lua	2015-03-17 22:05:48.510693300 +0100
++++ bx/scripts/toolchain.lua	2015-03-17 22:05:46.952590100 +0100
+@@ -339,7 +339,7 @@
+ 			"WIN32",
+ 			"_WIN32",
+ 			"_HAS_EXCEPTIONS=0",
+-			"_HAS_ITERATOR_DEBUGGING=0",
++			-- "_HAS_ITERATOR_DEBUGGING=0",
+ 			"_SCL_SECURE=0",
+ 			"_SECURE_SCL=0",
+ 			"_SCL_SECURE_NO_WARNINGS",
